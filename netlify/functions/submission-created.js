@@ -4,7 +4,7 @@ const { Resend } = require('resend');
 // whenever a form submission is received.
 exports.handler = async function (event) {
   try {
-    const payload = JSON.parse(event.body);
+    const { payload } = JSON.parse(event.body);
     const { name, lastname, email, message } = payload.data;
 
     const resend = new Resend(process.env.RESEND_API_KEY);
