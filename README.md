@@ -131,7 +131,7 @@ This static website can be deployed to:
 
 ## License
 
-© 2025 by HODLife. This is a replica for educational and demonstration purposes.
+© 2026 by HODLife. This is a replica for educational and demonstration purposes.
 
 ## Contact Information
 
